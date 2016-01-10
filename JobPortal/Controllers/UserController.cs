@@ -9,6 +9,6 @@ namespace JobPortal.Controllers
 {
     public class UserController : ApiController
     {
-
+        
     }
 }
