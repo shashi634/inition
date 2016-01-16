@@ -166,9 +166,27 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\DataBaseConnection.cs" />
-    <Compile Include="Models\User.cs" />
-    <Compile Include="Models\UserType.cs" />
+    <Compile Include="Models\AppliedHistory.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EmployeeContactDetail.cs" />
+    <Compile Include="Models\EmployeeEducation.cs" />
+    <Compile Include="Models\EmployeeIdProof.cs" />
+    <Compile Include="Models\EmployeeWorkHistory.cs" />
+    <Compile Include="Models\Employer.cs" />
+    <Compile Include="Models\EmployerContact.cs" />
+    <Compile Include="Models\JobPortalContext.cs" />
+    <Compile Include="Models\JobRequirment.cs" />
+    <Compile Include="Models\Mapping\AppliedHistoryMap.cs" />
+    <Compile Include="Models\Mapping\EmployeeContactDetailMap.cs" />
+    <Compile Include="Models\Mapping\EmployeeEducationMap.cs" />
+    <Compile Include="Models\Mapping\EmployeeIdProofMap.cs" />
+    <Compile Include="Models\Mapping\EmployeeMap.cs" />
+    <Compile Include="Models\Mapping\EmployeeWorkHistoryMap.cs" />
+    <Compile Include="Models\Mapping\EmployerContactMap.cs" />
+    <Compile Include="Models\Mapping\EmployerMap.cs" />
+    <Compile Include="Models\Mapping\JobRequirmentMap.cs" />
+    <Compile Include="Models\Mapping\sysdiagramMap.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
